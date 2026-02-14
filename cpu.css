@@ -1,0 +1,113 @@
+/* ---------- Page Styling ---------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* ---------- Header ---------- */
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* ---------- Controls Section ---------- */
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 40px;          /* space between inputs */
+    margin-bottom: 25px;
+}
+
+/* ---------- Card Layout ---------- */
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ---------- Buttons ---------- */
+
+button {
+    padding: 8px 15px;
+    background-color: #2d89ef;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5fbf;
+}
+
+/* ---------- Table ---------- */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #e8eef7;
+}
+
+/* ---------- Input Boxes ---------- */
+
+input {
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+/* ---------- Gantt Chart ---------- */
+
+.gantt-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.gantt-block {
+    text-align: center;
+}
+
+.block {
+    border: 2px solid black;
+    padding: 20px;
+    min-width: 60px;
+    background-color:pink;
+}
+
+.time {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+
+
+
